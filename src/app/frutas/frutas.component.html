@@ -1,0 +1,35 @@
+<p>
+  frutas works!
+</p>
+
+<div>
+		<label >id</label>
+	<input [(ngModel)]="fruta.id" placeholder="id">
+	<label >Nombre</label>
+	<input [(ngModel)]="fruta.nombre" placeholder="name">
+	<label >Nombre</label>
+	<input [(ngModel)]="fruta.color" placeholder="color">
+
+
+
+</div>
+
+<table>
+	<tr>
+		<th>ID</th>
+		<th>NOMBRE</th>
+		<th>COLOR</th>
+
+	</tr>
+	<tr>
+		<td>{{fruta.id}}</td>
+		<td>{{fruta.nombre}}</td>
+		<td>{{fruta.color}}</td>
+	</tr>
+
+		<tr>
+		<td>{{fruta2.id}}</td>
+		<td>{{fruta2.nombre}}</td>
+		<td>{{fruta2.color}}</td>
+	</tr>
+</table>
